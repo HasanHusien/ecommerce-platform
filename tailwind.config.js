@@ -1,0 +1,19 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+  //   fontFamily: {
+  //     sans: 'Roboto Mono'
+  //   },
+    extend: {},
+    height : {
+      screen: '100dvh'
+    }
+  },
+  plugins: [],
+};
+
+// something was wrong when uploading this file its not connected with tailwind so...
